@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none
+}
+
+ul li {
+  list-style: none;
+}
+
+
+
+header {
+  width: 100%;
+  padding: 3rem 2rem;
+  background-color: #8d99ae;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+header > h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #283044;
+}
+
+nav ul{
+  min-width:100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-itens: center;
+  background-color: #8d99ae;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+nav li > a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #283044;
+  padding: 14px;
+  transition: 0.5s;
+
+}
+
+nav li > a:hover {
+  color:#ebf5ee;
+  background-color:#8b786d;
+}
+
+.biografia, .obras {
+  padding: 3rem 4rem;
+  margin:auto;
+  
+} 
+
+.section {
+  min-width: 320px;
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+  /* padding: 4rem 6rem;s */
+  border-radius: 8px;
+}
+
+.section > h2 {
+  background-image: linear-gradient(to right, #8b786d, transparent);
+  font-size: 3rem;
+  font-weight: 900;
+  color: #283044;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+ img {
+   width:70%;
+   display: block;
+   margin: 2rem auto;
+}
+
+
+footer > div {
+  width: 100%;
+  height: 100px;
+  padding: 1rem 2rem;
+  background-color: #8d99ae;
+
+  text-align: center;
+}
+
+footer > div p {
+  margin-top: 1rem;
+}
+
+//
+
+.list-curiosidades li {
+  list-style: square;
+}

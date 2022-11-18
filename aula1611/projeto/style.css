@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --dark: #1f0322;
+  --mardi: #8a1c7c;
+  --cerise: #da4167;
+  --pink: #f0bcd4;
+  --gray: #899d78;
+} 
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Robot', sans-serif;
+  background: var(--gray);
+}
+
+.header {
+  background: var(--dark);
+  min-height: 150px;
+  text-align: center;
+  padding-top: 75px;
+}
+
+h1 {
+  color: var(--cerise);
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.header > p {
+  color: var(--pink);
+  text-align:
+}
+
+.nave {
+  background-color: var(--dark);
+  padding: 10px;
+  box-shadow: 1px 2px 6px 3px var(--cerise);
+}
+
+.nave ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nave ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.nave ul li > a {
+  color: var(--pink);
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.nave ul li > a:hover {
+  color: var(--cerise);
+  background-color: var(--gray)
+}
+
+
+main {
+  background-color: white;
+  min-width: 320px;
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 2px -1px 4px 2px black;
+}
+
+h2 {
+  background-image: linear-gradient(to right, var(--cerise), transparent);
+  margin: 14px 40px;
+}
+
+main > p {
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 40px;
+  margin: 30px ;
+}

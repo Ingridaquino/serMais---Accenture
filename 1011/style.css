@@ -1,0 +1,26 @@
+body {
+  background-color: #16324f;
+  background-image: url(https://images.pexels.com/photos/1618606/pexels-photo-1618606.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: 40%;
+  /*horizontal vertical (x.y)*/
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;  
+
+  /*shorthand*/
+
+  /* background: color image repeat attachment position */
+}
+
+a {
+
+  /* text-decoration-line: underline; /*none, overline, underline, line-through*/
+  /* text-decoration-color: black; dashed, solid, double, dotted, dashed */ */
+  /* text-decoration-thickness: 5px; espessura da linha */
+
+  /*ShortHand
+  text-decoration: line color style thickness
+  
+  */
+
+  text-decoration: overline red dashed 4px;
